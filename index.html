@@ -1,3 +1,9 @@
+<!-- 
+This HTML file contains a form for a simple survey that includes fields for a name, email address, age, and a comment box. 
+The form has appropriate labels for each field. 
+The form is submitted using the GET method. 
+The form is styled using an external CSS file named "form.css".
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,14 +30,22 @@
 
         <div class="form-example age">
           <label for="email">Enter your age: </label>
-          <input type="date">
+          <input type="date" />
         </div>
-        <div class="form-example">
+
+        <div class="comments-div">
           <label for="email">Enter your comment: </label>
-          <input type="text" name="email" id="email" required />
+
+          <textarea
+            rows="4"
+            cols="24"
+            name="comments"
+            id="comments"
+            style="font-family: sans-serif; font-size: 1.2em"
+          ></textarea>
         </div>
-        <div class="form-example">
-          <input type="submit" class="subscribe" value="Subscribe!" />
+        <div class="subscribe-div">
+          <input type="submit" class="subscribe-input" value="Submit" />
         </div>
       </form>
     </div>
