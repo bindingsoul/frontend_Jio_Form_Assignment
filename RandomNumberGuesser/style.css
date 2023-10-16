@@ -2,38 +2,40 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #BEADFA;
-  padding-bottom: 5%;
+  /* justify-content: space-around; */
+  background-color: #beadfa;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5px;
-  padding: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
-.btn{
+.btn {
   margin: 3px;
-  /* padding: 10%; */
 }
 
-body{
-  background-color: #D0BFFF;
-  font-family: 'Roboto', sans-serif;
-font-family: 'Teko', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+body {
+  background-color: #d0bfff;
+  font-family: "Roboto", sans-serif;
+  font-family: "Teko", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.game-info{
+.game-info {
   align-items: center;
 }
-.info{
+.info {
   display: flex;
-   align-items: center;
+  align-items: center;
   flex-direction: column;
-  background-color: #BEADFA;
-  padding-bottom: 5%;
+  background-color: #beadfa;
   margin-left: 10%;
   margin-right: 10%;
   padding: 15px;
-  margin-top: 10%;
-  
-
+  margin-top: 1%;
+}
+div {
+  border-radius: 5px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
 }

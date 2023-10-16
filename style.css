@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 5%;
+  place-items: center;
+
+  /* display: flex; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  background-color: #e3f4f4;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+div {
+  border-radius: 5px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+}
+.links {
+  width: 50%;
+  height: 30%;
+  text-align: center;
+  padding: 30px;
+}
+body {
+  background-color: #c4dfdf;
+}

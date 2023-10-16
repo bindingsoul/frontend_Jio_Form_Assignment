@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #c6dec8;
+  padding-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5px;
+  padding: 20px;
+  gap: 15px;
+}
+body {
+  background-color: #827b5d;
+  text-align: left
+}
+div{
+  border-radius: 5px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+}

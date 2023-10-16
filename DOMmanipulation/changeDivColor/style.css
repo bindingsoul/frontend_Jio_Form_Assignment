@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #c6dec8;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  padding: 20px;
+  gap: 30px;
+}
+body {
+  background-color: #95938a;
+
+}
+.changing-color{
+  width: 50%;
+  height: 5%;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+div{
+  border-radius: 5px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+}

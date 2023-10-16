@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #d3c0bc ;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+
+body {
+  background-color: #5e433c;
+  font-family: "Roboto", sans-serif;
+  font-family: "Teko", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+.image-gallery {
+  text-align: center;
+  margin: 20px;
+}
+
+#gallery-image {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Hide the audio controls */
+audio::-webkit-media-controls {
+    display: none !important;
+}
+
+audio::-webkit-media-controls-enclosure {
+    display: none !important;
+}
